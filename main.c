@@ -1,2 +1,2 @@
 #include <stdio.h>
-main(main){puts("Hello, world!");}
+main(){puts("Hello, world!");}
