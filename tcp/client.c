@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     addr.sin_addr.s_addr = inet_addr("127.0.0.1");
     addr.sin_port = htons(port);
 
-    connect(fd, (struct sockaddr *)(&addr), sizeof(addr));
+    connect(fd, (struct sockaddr *)(&addr), sizeof(addr)); // block
 
     char buf[64];
     read(fd, buf, sizeof(buf));
