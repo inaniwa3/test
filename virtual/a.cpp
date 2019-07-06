@@ -22,6 +22,7 @@ public:
     void f()       // hiding (not override)
     {
         printf("c");
+//      f();  // ccccccc...ccccccSegmentation fault
         Hoge::f();
     }
 };

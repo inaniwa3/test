@@ -35,12 +35,12 @@ int main()
 
     puts("----");
 
-    Hoge hogeB(hogeA);  // Copy constructor (direct initialization)
+    Hoge hogeB(hogeA);  // Copy constructor
     printf("hogeB.m: %d\n", hogeB.m);  // 1
 
     puts("----");
 
-    Hoge hogeC = hogeB; // Copy constructor (copy initialization)
+    Hoge hogeC = hogeB; // Copy constructor
     printf("hogeC.m: %d\n", hogeC.m);  // 1
 
     puts("----");
